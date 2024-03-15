@@ -1,0 +1,37 @@
+body{
+    background-color:cadetblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:#0e4399;
+    text-align: center;
+}
+input{
+    width:200px;
+    height: 50px;
+    margin: 20px;
+}
+.tastiera{
+    display: inline-flex;
+}  
+.tasti-numeri{
+    text-align: center;
+    margin: 10px;
+}
+.tasti-op{
+    text-align: center;
+    display: grid;
+    margin: 10px;
+}
+.round-button {
+    border-radius: 100%; /* Rende il bottone tondo */
+    width: 70px;
+    height: 70px;
+    background-color: #4CAF50; /* Colore di sfondo */
+    color: white; /* Colore del testo */
+    text-align: center; /*Centra il testo*/
+    font-size: 16px; /* Dimensione del testo */
+    text-decoration: none; /* Rimuove il sottolineato */
+    display: inline-block; /* Permette al bottone di adattarsi al contenuto */
+}
