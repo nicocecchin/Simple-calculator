@@ -42,6 +42,9 @@ document.getElementById("in-float").addEventListener("click", function(){
     
 });
 
+document.getElementById("in-AC").onclick = function(){
+    screen.value = ""
+}
 
 document.getElementById("in-DEL").addEventListener("click", function(){
     document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1)

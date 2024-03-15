@@ -11,6 +11,7 @@ input{
     width:200px;
     height: 50px;
     margin: 20px;
+
 }
 .tastiera{
     display: inline-flex;
@@ -29,6 +30,18 @@ input{
     width: 70px;
     height: 70px;
     background-color: #4CAF50; /* Colore di sfondo */
+    color: white; /* Colore del testo */
+    text-align: center; /*Centra il testo*/
+    font-size: 16px; /* Dimensione del testo */
+    text-decoration: none; /* Rimuove il sottolineato */
+    display: inline-block; /* Permette al bottone di adattarsi al contenuto */
+}
+
+.round-button-ops {
+    border-radius: 100%; /* Rende il bottone tondo */
+    width: 70px;
+    height: 70px;
+    background-color: #3b883f; /* Colore di sfondo */
     color: white; /* Colore del testo */
     text-align: center; /*Centra il testo*/
     font-size: 16px; /* Dimensione del testo */
